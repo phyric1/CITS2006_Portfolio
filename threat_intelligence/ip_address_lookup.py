@@ -3,7 +3,7 @@ import socket
 import requests
 import json
 
-ABUSEIPDB_API_KEY = "cd983410b7c32a013b80c55997eee1e802368db136791e6e56e1e36c8ced68695c433becce289552"  # Replace this with your real API key
+ABUSEIPDB_API_KEY = "YOUR_API_KEY"  # Replace this with your real API key
 ABUSEIPDB_API_URL = "https://api.abuseipdb.com/api/v2/check"
 
 def is_valid_ip(ip: str) -> bool:
